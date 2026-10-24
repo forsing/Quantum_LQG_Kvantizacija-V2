@@ -23,9 +23,9 @@ import pandas as pd
 
 
 # 1. DEFINISANJE PUTANJE DO BAZE
-# PUTANJA_DO_BAZE = "/Users/4c/Desktop/GHQ/data/loto7_4708_k85.csv"
-# PUTANJA_DO_BAZE = "/Users/4c/Desktop/GHQ/data/loto7_4708_k85_loto_2976.csv"
-PUTANJA_DO_BAZE = "/Users/4c/Desktop/GHQ/data/loto7_4708_k85_loto_plus_1732.csv"
+# PUTANJA_DO_BAZE = "/data/loto7_4708_k85.csv"
+# PUTANJA_DO_BAZE = "/data/loto7_4708_k85_loto_2976.csv"
+PUTANJA_DO_BAZE = "/data/loto7_4708_k85_loto_plus_1732.csv"
 
 
 def generisi_next_predikciju_v2(putanja_csv):
@@ -109,16 +109,16 @@ next_7_v2 = generisi_next_predikciju_v2(PUTANJA_DO_BAZE)
 """
 ==================================================
   [LQG v2 - Spin Surfaces] SLEDEĆA PREDREČENA KOMBINACIJA:
-  [8, 23, 24, 26, 34, 38, 39]
+  [8, x, 24, y, 34, z, 39]
 ==================================================
 
 Detaljan intenzitet izabranih čvorova u v2:
-Čvor 8 -> Intenzitet: 151016308.54
-Čvor 23 -> Intenzitet: 157113276.85
+Čvor  8 -> Intenzitet: 151016308.54
+Čvor  x -> Intenzitet: 157113276.85
 Čvor 24 -> Intenzitet: 138107398.96
-Čvor 26 -> Intenzitet: 166581431.97
+Čvor  y -> Intenzitet: 166581431.97
 Čvor 34 -> Intenzitet: 138294058.82
-Čvor 38 -> Intenzitet: 137454924.66
+Čvor  z -> Intenzitet: 137454924.66
 Čvor 39 -> Intenzitet: 138668244.45
 
 
@@ -129,16 +129,16 @@ Detaljan intenzitet izabranih čvorova u v2:
 
 ==================================================
   [LQG v2 - Spin Surfaces] SLEDEĆA PREDREČENA KOMBINACIJA:
-  [8, 16, 23, 24, 26, 38, 39]
+  [8, x, 23, y, 26, z, 39]
 ==================================================
 
 Detaljan intenzitet izabranih čvorova u v2:
-Čvor 8 -> Intenzitet: 62243394.93
-Čvor 16 -> Intenzitet: 58836073.37
+Čvor  8 -> Intenzitet: 62243394.93
+Čvor  x -> Intenzitet: 58836073.37
 Čvor 23 -> Intenzitet: 60103519.44
-Čvor 24 -> Intenzitet: 58410598.09
+Čvor  y -> Intenzitet: 58410598.09
 Čvor 26 -> Intenzitet: 64262758.06
-Čvor 38 -> Intenzitet: 57492995.87
+Čvor  z -> Intenzitet: 57492995.87
 Čvor 39 -> Intenzitet: 56466672.76
 
 
@@ -149,16 +149,16 @@ Detaljan intenzitet izabranih čvorova u v2:
 
 ==================================================
   [LQG v2 - Spin Surfaces] SLEDEĆA PREDREČENA KOMBINACIJA:
-  [2, 4, 10, 11, 23, 29, 34]
+  [2, x, 10, y, 23, z, 34]
 ==================================================
 
 Detaljan intenzitet izabranih čvorova u v2:
-Čvor 2 -> Intenzitet: 22009052.16
-Čvor 4 -> Intenzitet: 19314835.99
+Čvor  2 -> Intenzitet: 22009052.16
+Čvor  x -> Intenzitet: 19314835.99
 Čvor 10 -> Intenzitet: 21078034.84
-Čvor 11 -> Intenzitet: 20502455.98
+Čvor  y -> Intenzitet: 20502455.98
 Čvor 23 -> Intenzitet: 23970037.65
-Čvor 29 -> Intenzitet: 20752991.27
+Čvor  z -> Intenzitet: 20752991.27
 Čvor 34 -> Intenzitet: 19310766.30
 """
 
